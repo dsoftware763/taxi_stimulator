@@ -1,0 +1,119 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00b7ff;
+}
+i{
+  float:right;
+}
+.card-subtitle {
+  font-size: 10px;
+  float: left;
+}
+.card{
+  width: 150px;
+  height: 45px;
+  position: relative;
+}
+.table{
+  margin-top: 15px;
+  background-color: white
+}
+
+.table tbody tr td{
+  font-size: 12px
+}
+
+.table thead tr th{
+  font-size: 10px;
+}
+#mapid{
+min-width: 100%;
+min-height: 300px;
+}
+.fa{
+  color: rgb(238, 203, 5);
+ font-size: 30px;
+ position: absolute;
+ top: 6px;
+ right: 10px
+}
+.leaflet-routing-alt table,.leaflet-routing-add-waypoint  {
+  display: none;
+}
+
+.td3,.td4,.card-body{
+  cursor: pointer;
+}
+img{
+  width: 25px;
+  height: 25px
+}
+.info_button{
+  background-color: white;
+  border:1px solid #00b7ff;
+  color: white;
+  font-size: 10px;
+  border-radius: 88%;
+  width: 20px;
+  height: 18px;
+  margin-left: 5px
+}
+#button{
+ border-radius: 88%;
+ height: 32px;
+ width: 35px;
+ background-color: rgb(238, 203, 5);
+ border: 1px solid rgb(238, 203, 5)
+}
+.fas{
+ color: white;
+}
+.Control{
+width: 20%
+}
+.container-full{
+margin-top: -49px
+}
+#cal{
+  margin-top:6px;
+  font-size: 13px;
+  height: 34px
+}
+#uid{
+  width:140px;
+  margin-top:7px;
+}
+#load{
+  margin-top:10px;
+  height: 34px;
+  width: 60px;
+}
+#stimulation-name{
+  margin-top: 7px;
+  width: 140px;
+  margin-left: 18px
+}
+#pusertype{
+  width: 140px;
+}
+#speed{
+  margin-top: 4px;
+  width: 140px
+}
+
+#driver-limit{
+  width: 140px;
+}
+#radius{
+  margin-top: 6px;
+}
+#time{
+  width: 140px;
+  margin-left: 18px
+}
+/* #book_stimulation{
+
+} */

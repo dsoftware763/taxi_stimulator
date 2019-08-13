@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<% include ../partials/head %>
+</head>
+<body>
+<div class="container">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-2" >
+              <div style="height: 50px; width: 100%;margin:0;padding:0;background-color: rgb(241, 238, 238)"></div>
+              <div style=" height: 99vh">
+                <a href="#">Dashboard</a><br/>
+                <a href="#">Profile</a>
+              </div>
+            </div>
+            <div class="col-md-10" style="background-color: rgb(241, 238, 238)">
+              <div class="row" style="background-color: rgb(238, 203, 5);height: 40px"></div>
+              <div class="container">
+                <div class="row" style="margin-top: 15px"> 
+                  <div class="col-md-2"style="margin-left: 25px">
+                    <div class="card">
+                      <div class="card-body" onclick= onClickDriver()>
+                           <span class="card-subtitle"  style="text-decoration: none;color: black">Drivers</span>
+                           <i class="fa fa-user-circle"></i>
+                      </div> 
+                    </div>
+                 </div> 
+                 <div class="offset-md-1" >
+                    <div class="card">
+                      <div class="card-body" onclick=onClickPassenger()>
+                          <span class="card-subtitle" style="text-decoration: none;color: black">Passengers</span>
+                          <i class="fa fa-user-circle"></i>
+                      </div> 
+                    </div> 
+                 </div>
+                 <div class="offset-md-1">
+                  <div class="card">
+                      <div class="card-body"  onclick='onClickNearby()'>
+                        <span class="card-subtitle" style="text-decoration: none;color: black">Nearby</span>
+                          <i class="fa fa-user-circle"></i> 
+                      </div> 
+                  </div>
+                 </div>
+                 <div class="offset-md-1">  
+                  <div class="card">
+                      <div class="card-body">
+                          <span class="card-subtitle">Operations</span>
+                           <i class="fa fa-user-circle"></i>
+                      </div> 
+                  </div> 
+                 </div> 
+                </div> 
+                     <div class="row" style="margin-top:15px"> 
+                    <div id="mapid"></div>
+                      </div> 
+                      <% include ../partials/driver-table.ejs %>
+                    </div>
+                  </div>
+                  </div>
+                  </div>
+         
+                </body>
+                <% include ../partials/script %>
+                <script type="text/javascript" src="javascripts/movingMarker.js"></script>
+                <script type="text/javascript" src="javascripts/change_route.js"></script>
+    
+                </html>
